@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         // Масив учасників
         Participant[] participants = {
-                new Human("ObstacleCourse.Human", 500, 2),
-                new Cat("ObstacleCourse.Cat", 600, 9),
-                new Robot("ObstacleCourse.Robot", 1000, 1)
+                new Human("Human", 500, 2),
+                new Cat("Cat", 600, 9),
+                new Robot("Robot", 1000, 1)
         };
 
         // Масив перешкод
@@ -28,7 +28,7 @@ public class Main {
                 }
             }
             if (completed) {
-                System.out.println("The participant" + participant.getName() +
+                System.out.println("The participant " + participant.getName() +
                         " successfully completed the obstacle line!");
             }
             System.out.println("----------------------------------");

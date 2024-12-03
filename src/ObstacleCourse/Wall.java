@@ -9,7 +9,7 @@ public class Wall implements Obstacle {
 
     @Override
     public boolean overcome(Participant participant) {
-        System.out.println("ObstacleCourse.Participant " + participant.getName() +
+        System.out.println("Participant " + participant.getName() +
                 " tries to jump over " + height + " m");
         return participant.jump(height);
     }

@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public interface Participant {
     String getName();
     int getRunLimit();

@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public class RunningTrack implements Obstacle {
     private int distance;
 
@@ -7,7 +9,7 @@ public class RunningTrack implements Obstacle {
 
     @Override
     public boolean overcome(Participant participant) {
-        System.out.println("Participant " + participant.getName() +
+        System.out.println("ObstacleCourse.Participant " + participant.getName() +
                 " tries to run a distance of " + distance + " m");
         return participant.run(distance);
     }

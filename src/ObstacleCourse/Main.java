@@ -1,10 +1,12 @@
+package ObstacleCourse;
+
 public class Main {
     public static void main(String[] args) {
         // Масив учасників
         Participant[] participants = {
-                new Human("Human", 500, 2),
-                new Cat("Cat", 600, 9),
-                new Robot("Robot", 1000, 1)
+                new Human("ObstacleCourse.Human", 500, 2),
+                new Cat("ObstacleCourse.Cat", 600, 9),
+                new Robot("ObstacleCourse.Robot", 1000, 1)
         };
 
         // Масив перешкод

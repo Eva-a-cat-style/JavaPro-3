@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public class Human implements Participant {
         private String name;
         private int runLimit;

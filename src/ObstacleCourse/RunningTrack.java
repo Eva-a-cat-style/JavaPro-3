@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public class RunningTrack implements Obstacle {
     private int distance;
 
@@ -12,3 +14,4 @@ public class RunningTrack implements Obstacle {
         return participant.run(distance);
     }
 }
+

@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public interface Participant {
     String getName();
     int getRunLimit();
@@ -5,3 +7,4 @@ public interface Participant {
     boolean run(int distance);
     boolean jump(int height);
 }
+

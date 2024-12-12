@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public class Wall implements Obstacle {
     private int height;
 
@@ -12,3 +14,4 @@ public class Wall implements Obstacle {
         return participant.jump(height);
     }
 }
+

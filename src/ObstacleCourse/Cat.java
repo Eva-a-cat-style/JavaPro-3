@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public class Cat implements Participant {
     private String name;
     private int runLimit;
@@ -34,6 +36,7 @@ public class Cat implements Participant {
             return false;
         }
     }
+
 
     @Override
     public boolean jump(int height) {

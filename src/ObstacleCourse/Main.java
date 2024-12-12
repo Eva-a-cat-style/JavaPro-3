@@ -1,3 +1,5 @@
+package ObstacleCourse;
+
 public class Main {
     public static void main(String[] args) {
         // Масив учасників
@@ -26,7 +28,7 @@ public class Main {
                 }
             }
             if (completed) {
-                System.out.println("The participant" + participant.getName() +
+                System.out.println("The participant " + participant.getName() +
                         " successfully completed the obstacle line!");
             }
             System.out.println("----------------------------------");

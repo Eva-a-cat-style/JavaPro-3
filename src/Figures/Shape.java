@@ -1,5 +1,7 @@
 package Figures;
 
-public interface Shape {double getArea();
+public interface Shape {
+    double getArea();
 }
+
 

@@ -14,3 +14,4 @@ public class RunningTrack implements Obstacle {
         return participant.run(distance);
     }
 }
+

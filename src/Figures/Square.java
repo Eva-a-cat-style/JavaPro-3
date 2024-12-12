@@ -7,6 +7,7 @@ public class Square implements Shape {
         this.side = side;
     }
 
+
     @Override
     public double getArea() {
         return side * side; // Формула площі квадрата

@@ -34,6 +34,7 @@ public class Human implements Participant {
             } else {
                 System.out.println(name + " did not ran the distance " + distance + " :( ");
                 return false;
+
             }
         }
 

@@ -9,6 +9,7 @@ public class Triangle implements Shape {
         this.height = height;
     }
 
+
     @Override
     public double getArea() {
         return 0.5 * base * height; // Формула площі трикутника

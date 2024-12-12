@@ -12,3 +12,4 @@ public class Circle implements Shape {
         return Math.PI * radius * radius; // Формула площі кола
     }
 }
+

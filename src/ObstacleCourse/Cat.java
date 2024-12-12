@@ -37,6 +37,7 @@ public class Cat implements Participant {
         }
     }
 
+
     @Override
     public boolean jump(int height) {
         if (height <= jumpLimit) {

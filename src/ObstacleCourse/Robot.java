@@ -37,6 +37,7 @@ public class Robot implements Participant {
         }
     }
 
+
     @Override
     public boolean jump(int height) {
         if (height <= jumpLimit) {

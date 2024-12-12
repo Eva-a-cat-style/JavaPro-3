@@ -16,7 +16,6 @@ public class Main {
         System.out.println("Сумарна площа всіх фігур: " + totalArea);
     }
 
-
     public static double calculateTotalArea(Shape[] shapes) {
         double total = 0;
         for (Shape shape : shapes) {

@@ -14,3 +14,4 @@ public class Wall implements Obstacle {
         return participant.jump(height);
     }
 }
+
